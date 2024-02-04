@@ -12,8 +12,8 @@
         <main>
             <?php 
                 // var_dump($_GET);
-                $nome = $_GET["nome"];
-                $sobrenome = $_GET["sobrenome"];
+                $nome = $_GET["nome"] ?? "Sem nome";
+                $sobrenome = $_GET["sobrenome"] ?? "Desconhecido";
                 echo "<p> É um prazer te conhecer , <strong>$nome $sobrenome</strong> ! Este é meu Site. ";
             ?>
             <p><a href="javascript:history.go(-1)">Voltar para a pagina anterior</a></p>
