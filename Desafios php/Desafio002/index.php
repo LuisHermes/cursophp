@@ -14,7 +14,7 @@
             $max = 50;
             $resultado = mt_rand($min,$max);
 
-            echo "O Numero aleatorio é  : " , $resultado;
+            echo "Gerando numeros aleatorios: " , $resultado;
         ?>
         <button onclick="javascript:document.location.reload()">Gerar outro</button>
     </main>
