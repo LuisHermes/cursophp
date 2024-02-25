@@ -12,7 +12,7 @@
         <?php 
             $min = 0;
             $max = 50;
-            $resultado = mt_rand($min,$max);
+            $resultado = mt_rand($min,$max); // Função paa Gerar numeros Aleatorios
 
             echo "Gerando numeros aleatorios: " , $resultado;
         ?>
